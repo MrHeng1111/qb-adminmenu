@@ -4,9 +4,10 @@ local frozen = false
 local permissions = {
     ['kill'] = 'god',
     ['ban'] = 'admin',
-    ['noclip'] = 'admin',
-    ['kickall'] = 'admin',
-    ['kick'] = 'admin'
+    ['noclip'] = 'god',
+    ['kickall'] = 'god',
+    ['kick'] = 'admin',
+    ['tpm'] = 'god'
 }
 
 -- Get Dealers
